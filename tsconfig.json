@@ -16,17 +16,12 @@
     "skipLibCheck": true,
     "experimentalDecorators": true,
     "downlevelIteration": true,
-    "module": "esnext",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "importHelpers": true,
     "declaration": true,
-    "typeRoots": [
-      "node_modules/@types"
-    ],
+    "typeRoots": ["node_modules/@types"],
     "target": "ES2017",
-    "lib": [
-      "es2019",
-      "dom"
-    ]
+    "lib": ["es2019", "dom"]
   }
 }
